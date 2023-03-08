@@ -1,0 +1,13 @@
+#N canvas 89 120 1320 602 12;
+#X obj 437 218 loadbang;
+#X obj 437 272 tabwrite~ \$0-wave;
+#N canvas 47 74 450 278 (subpatch) 0;
+#X array \$0-wave 4410 float 2;
+#X coords 0 1 4410 -1 150 80 2 0 0;
+#X restore 4 18 graph;
+#X obj 340 202 inlet~;
+#X obj 437 248 metro 100;
+#X connect 0 0 4 0;
+#X connect 3 0 1 0;
+#X connect 4 0 1 0;
+#X coords 0 -1 1 1 160 105 2 0 0;
