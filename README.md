@@ -1,7 +1,7 @@
 # puredata-lib-yShin
 lib fr0m yShin
 
-just some homemade libs usually used in my patches
+libs usually used in my patches
 
 https://www.instagram.com/y_shin_visual/
 
