@@ -1,7 +1,6 @@
-#N canvas 546 28 1324 908 12;
+#N canvas 0 23 1324 775 12;
 #X obj 306 460 *~;
-#X obj 12 29 vsl 15 80 0 1 0 0 empty empty empty 0 -9 0 10 #fcfcfc
-#000000 #000000 0 1;
+#X obj 12 29 vsl 15 80 0 1 0 1 empty empty empty 0 -9 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 617 682 /~;
 #X obj 636 531 expr $f1+$f2+$f3+$f4;
 #X obj 661 410 > 0;
@@ -16,32 +15,25 @@
 #X obj 349 463 *~;
 #X obj 402 436 *~;
 #X obj 444 465 *~;
-#X obj 38 29 vsl 15 80 0 1 0 0 empty empty empty 0 -9 0 10 #fcfcfc
-#000000 #000000 0 1;
-#X obj 65 29 vsl 15 80 0 1 0 0 empty empty empty 0 -9 0 10 #fcfcfc
-#000000 #000000 0 1;
-#X obj 91 29 vsl 15 80 0 1 0 0 empty empty empty 0 -9 0 10 #fcfcfc
-#000000 #000000 0 1;
+#X obj 38 29 vsl 15 80 0 1 0 1 empty empty empty 0 -9 0 10 #fcfcfc #000000 #000000 0 1;
+#X obj 65 29 vsl 15 80 0 1 0 1 empty empty empty 0 -9 0 10 #fcfcfc #000000 #000000 0 1;
+#X obj 91 29 vsl 15 80 0 1 0 1 empty empty empty 0 -9 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 552 20 inlet~;
 #X obj 618 27 inlet~;
 #X obj 673 41 inlet~;
 #X obj 741 24 inlet~;
 #X obj 707 781 outlet~;
 #X obj 829 783 outlet~;
-#X obj 13 126 hsl 15 15 0 1 0 0 empty empty empty -2 -8 0 10 #fcfcfc
-#000000 #000000 0 1;
+#X obj 13 126 hsl 15 15 0 1 0 0 empty empty empty -2 -8 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 456 41 loadbang;
 #X floatatom 28 246 5 0 0 0 - - - 0;
 #X floatatom 730 250 5 0 0 0 - - - 0;
 #X msg 456 65 set 0.5;
 #X obj 27 222 expr 1-$f1;
 #X obj 730 226 expr $f1;
-#X obj 39 126 hsl 15 15 0 1 0 0 empty empty empty -2 -8 0 10 #fcfcfc
-#000000 #000000 0 1;
-#X obj 66 126 hsl 15 15 0 1 0 0 empty empty empty -2 -8 0 10 #fcfcfc
-#000000 #000000 0 1;
-#X obj 92 125 hsl 15 15 0 1 0 0 empty empty empty -2 -8 0 10 #fcfcfc
-#000000 #000000 0 1;
+#X obj 39 126 hsl 15 15 0 1 0 0 empty empty empty -2 -8 0 10 #fcfcfc #000000 #000000 0 1;
+#X obj 66 126 hsl 15 15 0 1 0 0 empty empty empty -2 -8 0 10 #fcfcfc #000000 #000000 0 1;
+#X obj 92 125 hsl 15 15 0 1 0 0 empty empty empty -2 -8 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 377 514 *~;
 #X floatatom 210 250 5 0 0 0 - - - 0;
 #X floatatom 844 244 5 0 0 0 - - - 0;
@@ -115,13 +107,13 @@
 #X connect 18 0 10 0;
 #X connect 18 0 55 1;
 #X connect 19 0 0 0;
-#X connect 19 0 51 0;
+#X connect 19 1 51 0;
 #X connect 20 0 13 0;
-#X connect 20 0 53 0;
+#X connect 20 1 53 0;
 #X connect 21 0 14 0;
-#X connect 21 0 54 0;
+#X connect 21 1 54 0;
 #X connect 22 0 15 0;
-#X connect 22 0 55 0;
+#X connect 22 1 55 0;
 #X connect 25 0 30 0;
 #X connect 25 0 31 0;
 #X connect 26 0 29 0;
